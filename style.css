@@ -1,0 +1,78 @@
+/* start fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+     /* font-family: "Lexend Deca", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+     /* font-family: "Big Shoulders Display", sans-serif; */
+/* end fonts */
+
+.container {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+.container .yellow {
+     background-color: hsl(31, 77%, 52%);
+}
+.container .blue {
+     background-color: hsl(184, 100%, 22%);
+}
+.container .green {
+     background-color: hsl(179, 100%, 13%);
+}
+.container .box {
+     text-align: left;
+     padding: 50px;
+}
+.container .box .logo img {
+     width: 100px;
+}
+.container .box h1 {
+     text-transform: uppercase;
+     color: #fff;
+     font-size: 70px;
+     font-family: "Big Shoulders Display", sans-serif;
+}
+.container .box p {
+     color: #ffffffbf;
+     font-size: 25px;
+     font-family: "Lexend Deca", sans-serif;
+     width: 300px;
+     padding-bottom: 80px;
+     font-weight: 300;
+}
+.container .box .btn {
+     background-color: #fff;
+     width: fit-content;
+     padding: 20px 40px;
+     border-radius: 50px;
+     -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+     -ms-border-radius: 50px;
+     -o-border-radius: 50px;
+     transition: 0.4s;
+     -webkit-transition: 0.4s;
+     -moz-transition: 0.4s;
+     -ms-transition: 0.4s;
+     -o-transition: 0.4s;
+     border: 2px solid transparent;
+}
+.container .box .yellow-btn a {
+     color: hsl(31, 77%, 52%);
+}
+.container .box .blue-btn a {
+     color: hsl(184, 100%, 22%);
+}
+.container .box .green-btn a {
+     color: hsl(179, 100%, 13%);
+}
+.container .box .btn a {
+     text-decoration: none;
+     transition: 0.4s;
+     font-size: 20px;
+}
+.container .box .btn a:hover {
+     color: #fff;
+}
+.container .box .btn:hover {
+     background-color: transparent;
+     border: 2px solid white;
+}
