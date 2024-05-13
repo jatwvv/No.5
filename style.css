@@ -70,7 +70,7 @@
      transition: 0.4s;
      font-size: 20px;
 }
-.container .box .btn a:hover {
+.container .box .btn:hover a {
      color: #fff;
 }
 .container .box .btn:hover {
